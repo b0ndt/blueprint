@@ -11,14 +11,14 @@ Tools included are:
 
 ## Table of Contents
 
-* [Used Versions in this Project](#used-version-in-this-project)
+* [Used Versions in this Project](#used-versions-in-this-project)
 * [Install Global Tools](#install-global-tools)
 * [Install Project Specific Tools](#install-project-specific-tools)
 * [Develop Locally](#develop-locally)
 * [Build und Deployment](#build-und-deployment)
 
 
-## [Used Versions in this Project](id:used-version-in-this-project)
+## [Used Versions in this Project](id:used-versions-in-this-project)
 
 	Java 1.8
 	Node v0.10.35
