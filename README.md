@@ -1,5 +1,8 @@
 # Frontend Development Blueprint (02.2015)
 
+This Blueprint includes a generic predefined folder and file structure (including example files) as well as a set of tools for developing a responsive website frontend which uses reusable components.
+
+
 ## Table of Contents
 
 * [Used Versions in this Project](#used-version)
