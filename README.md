@@ -2,6 +2,12 @@
 
 This Blueprint includes a generic predefined folder and file structure (including example files) as well as a set of tools for developing a responsive website frontend which uses reusable components.
 
+Tools included are:
+- Angular + Require for modular JavaScript
+- SASS + Susy for grid based, responsive CSS
+- Handlebars + Assemble for templating
+- Grunt for task automation
+
 
 ## Table of Contents
 
