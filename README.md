@@ -11,14 +11,14 @@ Tools included are:
 
 ## Table of Contents
 
-* [Used Versions in this Project](#used-version)
-* [Install Global Tools](#global-tools)
-* [Install Project Specific Tools](#project-specific-tools)
+* [Used Versions in this Project](#used-version-in-this-project)
+* [Install Global Tools](#install-global-tools)
+* [Install Project Specific Tools](#install-project-specific-tools)
 * [Develop Locally](#develop-locally)
 * [Build und Deployment](#build-und-deployment)
 
 
-## [Used Versions in this Project](id:used-version)
+## [Used Versions in this Project](id:used-version-in-this-project)
 
 	Java 1.8
 	Node v0.10.35
@@ -29,7 +29,7 @@ Tools included are:
 	Susy 2.2.1
 
 
-## [Install Global Tools](id:global-tools)
+## [Install Global Tools](id:install-global-tools)
 
 ### Install Java (v1.8)
 
@@ -52,7 +52,7 @@ Tools included are:
 	$ npm install -g grunt-cli
 
 
-## [Install Project Specific Tools](id:project-specific-tools)
+## [Install Project Specific Tools](id:install-project-specific-tools)
 
 	In terminal / console navigate to project folder and run the following commands:
 
