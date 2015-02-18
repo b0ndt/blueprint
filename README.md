@@ -31,21 +31,21 @@ Tools included are:
 
 ## [Install Global Tools](id:install-global-tools)
 
-### Install Java (v1.8)
+#### Install Java (v1.8)
 
 	https://java.com/de/download/
 	Windows: Check environment variables
 
-### Install Node (v0.10.35)
+#### Install Node (v0.10.35)
 
 	http://nodejs.org/ - use installer
 
-### Install Ruby (v2.1.5)
+#### Install Ruby (v2.1.5)
 
 	Windows: Use Ruby Installer (http://rubyinstaller.org/)
 	Mac OS: Use RVM (http://rvm.io/)
 
-### Install grunt CLI
+#### Install grunt CLI
 
 	In terminal / console run:
 
@@ -56,19 +56,19 @@ Tools included are:
 
 	In terminal / console navigate to project folder and run the following commands:
 
-### Install bundler and let bundler install dependencies
+#### Install bundler and let bundler install dependencies
 
 	$ gem install bundler
 	$ bundle install
 
-### Install npm packages
+#### Install npm packages
 
 	$ npm install
 
 
 ## [Develop Locally](id:develop-locally)
 
-### Start node server and run grunt local task
+#### Start node server and run grunt local task
 
 	$ grunt local
 
