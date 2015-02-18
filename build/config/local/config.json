@@ -1,0 +1,24 @@
+{
+    "dir": {
+        "www": "temp",
+        "work": "work",
+        "src":"work/src",
+        "assets":"work/assets",
+        "connectAssets":"assets",        
+        "lib":"work/lib"
+    },
+    "assemble": {
+        "assets": "temp/local/assets",
+        "templates": "work/src/templates",
+        "destination": "/"
+    },
+    "js": {
+        "include": {
+            "requirejs": true
+        }
+    },
+    "server": {
+        "port": 1337,
+        "local": true
+    }
+}

@@ -1,0 +1,26 @@
+$base-color: #fff;
+$base-text-color: #333;
+$base-link-hover-color: #3c91af;
+
+/* TYPOGRAPY */
+
+
+/* GRID SETTINGS */
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  /*debug: (
+    image: show,
+    color: rgba(#66f, .25),
+    output: overlay,
+    toggle: top right,
+  ),*/
+  global-box-sizing: border-box,
+);
+
+$breakpoints: (
+	small: (width: 768px),
+	mid: (width: 960px),
+	full: (width: 1024px)
+);

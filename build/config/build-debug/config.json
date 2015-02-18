@@ -1,0 +1,22 @@
+{
+    "dir": {
+        "www": "deploy/debug",
+        "work": "work",
+        "src":"work/src",
+        "assets": "deploy/debug/assets",
+        "lib":"work/lib"
+    },
+
+    "assemble": {
+        "assets": "deploy/debug/assets",
+        "templates": "work/src/templates",
+        "destination": "deploy/debug/pages"
+    },
+
+    "js": {
+        "optimize": "uglify",
+        "include": {
+            "requirejs": true
+        }
+    }
+}

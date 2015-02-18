@@ -1,0 +1,58 @@
+.teaser {
+
+	transition: transform 1s;
+
+	h2 {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+
+	width: 100%;
+
+	@include breakpoint(small) {
+		@include span(6);
+		&:nth-child(2n) {
+			@include span(6 last);
+		}
+	}
+
+	@include breakpoint(mid) {
+		&, &:nth-child(n) {
+			@include span(4);
+		}
+		&:nth-child(3n) {
+			@include span(4 last);
+		}
+	}
+
+	@include breakpoint(full) {
+		&, &:nth-child(n) {
+			@include span(3);
+		}
+		&:nth-child(4n) {
+			@include span(3 last);
+		}
+	}
+	
+
+	img {
+		max-width: 100%;
+		padding: 6px 0;
+	}
+
+	p {
+		font-size: 12px;
+	}
+
+	a {
+		font-size: 12px;
+		text-decoration: none;
+		width: 100%;
+		text-align: right;
+		display: block;
+	}
+}

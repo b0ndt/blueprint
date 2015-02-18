@@ -1,0 +1,21 @@
+{
+    "dir": {
+        "www": "deploy/release",
+        "work": "work",
+        "src":"work/src",
+        "assets": "deploy/release/assets",
+        "lib":"work/lib"
+    },
+
+    "assemble": {
+        "assets": "deploy/release/assets",
+        "templates": "work/src/templates",
+		"destination": "deploy/release/pages"
+    },
+
+    "js": {
+        "include": {
+            "requirejs": false
+        }
+    }
+}

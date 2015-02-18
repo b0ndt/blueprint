@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <link rel="shortcut icon" type="image/x-icon" href="assets/icon/favicon.ico"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-ng-controller="Application">
+{{> body }}
+
+{{#if config.js.include.requirejs}}
+    <script type="text/javascript" data-main="src/js/Application.js" src="lib/js/require/require.min.js"></script>
+{{else}}
+    <script type="text/javascript" src="assets/js/script.js"></script>
+{{/if}}
+</body>
+</html>

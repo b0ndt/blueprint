@@ -1,0 +1,88 @@
+/* TOOLS */
+/* MIXINS */
+/* CORE STYLES */
+/* TYPOGRAPY */
+/* GRID SETTINGS */
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)
+*/
+/* line 6, ../../src/scss/core/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../../src/scss/core/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+/* line 31, ../../src/scss/core/_reset.scss */
+body { line-height: 1; }
+
+/* line 34, ../../src/scss/core/_reset.scss */
+ol, ul { list-style: none; }
+
+/* line 37, ../../src/scss/core/_reset.scss */
+blockquote, q { quotes: none; }
+
+/* line 40, ../../src/scss/core/_reset.scss */
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+/* line 45, ../../src/scss/core/_reset.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 1, ../../src/scss/core/_body.scss */
+html, body { min-height: 100%; }
+
+/* line 5, ../../src/scss/core/_body.scss */
+body { background-color: #fff; }
+
+/* line 1, ../../src/scss/core/_sections.scss */
+section, footer, header, main { max-width: 100%; margin-left: auto; margin-right: auto; }
+/* line 12, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.1/sass/susy/output/support/_clearfix.scss */
+section:after, footer:after, header:after, main:after { content: " "; display: block; clear: both; }
+
+/* SECTIONS */
+/* line 1, ../../src/scss/sections/_main.scss */
+main { position: relative; max-width: 976px; min-height: 100%; margin: 0 auto; padding: 0 10px; box-shadow: -2px -9px 11px rgba(0, 0, 0, 0.2), 2px -9px 11px rgba(0, 0, 0, 0.2); }
+
+/* MODULES */
+/* line 1, ../../src/scss/modules/_logo.scss */
+.logo { position: absolute; left: 40px; top: 0; }
+
+@media (min-width: 768px) { /* line 1, ../../src/scss/modules/_navigation_main.scss */
+  nav { padding: 20px 30px; } }
+/* line 9, ../../src/scss/modules/_navigation_main.scss */
+nav a { font-weight: bold; font-size: 17px; line-height: 18px; color: #333; text-decoration: none; padding: 7px 12px 18px 12px; display: block; }
+/* line 18, ../../src/scss/modules/_navigation_main.scss */
+nav a:hover { color: #3c91af; }
+/* line 22, ../../src/scss/modules/_navigation_main.scss */
+nav a:first-child { padding-left: 0; }
+@media (min-width: 768px) { /* line 9, ../../src/scss/modules/_navigation_main.scss */
+  nav a { display: inline-block; } }
+
+/* line 1, ../../src/scss/modules/_stage_main.scss */
+.stage { margin: 0 auto; }
+/* line 4, ../../src/scss/modules/_stage_main.scss */
+.stage img { max-width: 100%; }
+
+/* line 1, ../../src/scss/modules/_teaser.scss */
+.teaser { -webkit-transition: -webkit-transform 1s; transition: transform 1s; width: 100%; }
+/* line 5, ../../src/scss/modules/_teaser.scss */
+.teaser h2 { font-size: 20px; font-weight: bold; }
+/* line 10, ../../src/scss/modules/_teaser.scss */
+.teaser h3 { font-size: 16px; }
+@media (min-width: 768px) { /* line 1, ../../src/scss/modules/_teaser.scss */
+  .teaser { width: 49.15254%; float: left; margin-right: 1.69492%; }
+  /* line 18, ../../src/scss/modules/_teaser.scss */
+  .teaser:nth-child(2n) { width: 49.15254%; float: right; margin-right: 0; } }
+@media (min-width: 960px) { /* line 24, ../../src/scss/modules/_teaser.scss */
+  .teaser, .teaser:nth-child(n) { width: 32.20339%; float: left; margin-right: 1.69492%; }
+  /* line 27, ../../src/scss/modules/_teaser.scss */
+  .teaser:nth-child(3n) { width: 32.20339%; float: right; margin-right: 0; } }
+@media (min-width: 1024px) { /* line 33, ../../src/scss/modules/_teaser.scss */
+  .teaser, .teaser:nth-child(n) { width: 23.72881%; float: left; margin-right: 1.69492%; }
+  /* line 36, ../../src/scss/modules/_teaser.scss */
+  .teaser:nth-child(4n) { width: 23.72881%; float: right; margin-right: 0; } }
+/* line 42, ../../src/scss/modules/_teaser.scss */
+.teaser img { max-width: 100%; padding: 6px 0; }
+/* line 47, ../../src/scss/modules/_teaser.scss */
+.teaser p { font-size: 12px; }
+/* line 51, ../../src/scss/modules/_teaser.scss */
+.teaser a { font-size: 12px; text-decoration: none; width: 100%; text-align: right; display: block; }
