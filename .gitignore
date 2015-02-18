@@ -1,8 +1,8 @@
 .DS_Store
 .idea
-.sass-cache
-node_modules
-deploy
-temp
+.sass-cache/
+node_modules/
+deploy/
+temp/
 npm-debug.log
-tmp
+tmp/
